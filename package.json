@@ -5,10 +5,10 @@
   "browserslist": [
     "last 1 Chrome versions"
   ],
-  "main": "index.html",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir dist --public-url ./"
+    "build": "parcel build index.html --no-minify --out-dir ./dist"
   },
   "author": "Brian Carlo Birondo",
   "license": "ISC",
